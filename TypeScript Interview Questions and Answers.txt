@@ -1,0 +1,25 @@
+**TypeScript**
+
+# Basic Level
+
+1) What is TypeScript?
+Answer: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, providing optional static typing and modern JavaScript features.
+
+2) What are the advantages of using TypeScript?
+Answer: TypeScript offers advantages like early detection of errors, improved code quality, better tooling and autocompletion, and easier code refactoring.
+
+# Intermediate Level
+
+3) What are interfaces in TypeScript?
+Answer: Interfaces in TypeScript define a contract for objects, specifying what properties and methods they should have, without providing the implementation.
+
+4) How do you declare a variable with a specific type in TypeScript?
+Answer: Use the syntax let variableName: type; to declare a variable with a specific type. For example, let name: string;.
+
+# Advanced Level
+
+5) What are generics in TypeScript?
+Answer: Generics are a feature in TypeScript that allow you to create components and functions that can work with any data type, providing a way to create reusable and flexible code.
+
+6) How does TypeScript handle modules?
+Answer: TypeScript supports ES6-style modules, allowing you to import and export code between files using import and export statements.

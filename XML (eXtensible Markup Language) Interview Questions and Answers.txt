@@ -1,0 +1,25 @@
+**XML (eXtensible Markup Language)**
+
+# Basic Level
+
+1) What is XML?
+Answer: XML (eXtensible Markup Language) is a markup language used to encode documents in a format that is both human-readable and machine-readable.
+
+2) What are the basic components of an XML document?
+Answer: The basic components of an XML document include elements, attributes, and a prolog. Elements define the structure, attributes provide additional information, and the prolog contains metadata.
+
+# Intermediate Level
+
+3) What is an XML Schema?
+Answer: An XML Schema defines the structure and data types of an XML document, ensuring that the document adheres to a specified format.
+
+4) How do you parse XML in JavaScript?
+Answer: XML can be parsed in JavaScript using the DOMParser for converting a string into an XML document, and XMLHttpRequest or fetch for retrieving XML data.
+
+# Advanced Level
+
+5) What are XSLT and XPath in XML?
+Answer: XSLT (eXtensible Stylesheet Language Transformations) is used to transform XML documents into other formats, while XPath is a language for navigating and querying elements and attributes in an XML document.
+
+6) How is XML used in web services?
+Answer: XML is used in web services for data interchange and defining service operations, particularly in SOAP (Simple Object Access Protocol) web services.

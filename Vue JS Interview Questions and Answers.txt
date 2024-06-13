@@ -1,0 +1,25 @@
+**Vue JS**
+
+# Basic Level
+
+1) What is Vue.js?
+Answer: Vue.js is a progressive JavaScript framework for building user interfaces, focusing on simplicity and flexibility. It can be used for developing single-page applications.
+
+2) What is a Vue component?
+Answer: A Vue component is a reusable, independent piece of code that encapsulates the HTML, CSS, and JavaScript needed for a part of the user interface.
+
+# Intermediate Level
+
+3) What is the Vue instance lifecycle?
+Answer: The Vue instance lifecycle includes stages like creation (beforeCreate, created), mounting (beforeMount, mounted), updating (beforeUpdate, updated), and destruction (beforeDestroy, destroyed).
+
+4) How does Vue.js handle data binding?
+Answer: Vue.js uses a reactive data binding system that keeps the DOM in sync with the data. It supports two-way data binding using the v-model directive.
+
+# Advanced Level
+
+5) What is Vuex and how is it used?
+Answer: Vuex is a state management pattern and library for Vue.js applications, providing centralized state management and a way to share state across components.
+
+6) How do you create custom directives in Vue.js?
+Answer: Custom directives in Vue.js can be created using the Vue.directive method, which allows you to define functionality that can be applied to DOM elements.

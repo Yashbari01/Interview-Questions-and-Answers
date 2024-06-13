@@ -1,0 +1,25 @@
+**Redux**
+
+# Basic Level
+
+1) What is Redux?
+Answer: Redux is a predictable state container for JavaScript applications, often used with React to manage application state in a single, central store.
+
+2) What are the core principles of Redux?
+Answer: The core principles are a single source of truth (state is stored in a single object), state is read-only (changes are made through actions), and changes are made with pure functions (reducers).
+
+# Intermediate Level
+
+3) What is an action in Redux?
+Answer: An action is a plain JavaScript object that describes an event or change to be made in the application state. Actions typically have a type field and an optional payload.
+
+4) What is a reducer in Redux?
+Answer: A reducer is a pure function that takes the current state and an action, and returns a new state. Reducers handle how the state changes in response to actions.
+
+# Advanced Level
+
+5) How do you handle asynchronous operations in Redux?
+Answer: Asynchronous operations can be handled in Redux using middleware such as Redux Thunk or Redux Saga, which allow you to dispatch actions based on async events.
+
+6) What is the Redux DevTools and how is it used?
+Answer: The Redux DevTools is a development tool that allows you to inspect every action and state change, time-travel debug, and track changes in the application state.

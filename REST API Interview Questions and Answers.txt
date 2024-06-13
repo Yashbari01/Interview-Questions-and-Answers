@@ -1,0 +1,25 @@
+**REST API**
+
+# Basic Level
+
+1) What is a REST API?
+Answer: A REST API (Representational State Transfer API) is an architectural style for designing networked applications that use HTTP requests to perform CRUD (Create, Read, Update, Delete) operations.
+
+2) What are HTTP methods commonly used in REST APIs?
+Answer: The common HTTP methods are GET (retrieve), POST (create), PUT (update), PATCH (partial update), and DELETE (remove).
+
+# Intermediate Level
+
+3) What is the purpose of status codes in REST APIs?
+Answer: Status codes indicate the result of the HTTP request. For example, 200 OK for successful requests, 404 Not Found for missing resources, and 500 Internal Server Error for server issues.
+
+4) What is HATEOAS in REST?
+Answer: HATEOAS (Hypermedia As The Engine Of Application State) is a constraint of REST that allows clients to navigate an API by following links included in the responses.
+
+# Advanced Level
+
+5) How do you secure a REST API?
+Answer: REST APIs can be secured using methods like HTTPS, authentication tokens (e.g., JWT), API keys, OAuth, and CORS (Cross-Origin Resource Sharing).
+
+6) What are idempotent and safe methods in REST?
+Answer: Idempotent methods produce the same result no matter how many times they are called (e.g., GET, PUT, DELETE). Safe methods do not alter the state of the server (e.g., GET).
