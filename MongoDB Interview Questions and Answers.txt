@@ -1,0 +1,25 @@
+**MongoDB**
+
+# Basic Level
+
+1) What is MongoDB?
+Answer: MongoDB is a NoSQL database that stores data in JSON-like documents, which are flexible and schema-less, making it suitable for unstructured data.
+
+2) What is a collection in MongoDB?
+Answer: A collection is a group of MongoDB documents. It is equivalent to a table in a relational database.
+
+# Intermediate Level
+
+3) How do you query documents in MongoDB?
+Answer: You can query documents using the find() method with a query object to specify search criteria. For example, db.collection.find({ name: "John" }).
+
+4) What is an index in MongoDB and why is it important?
+Answer: An index in MongoDB is a special data structure that improves the speed of data retrieval operations on a collection at the cost of additional storage space and write performance.
+
+# Advanced Level
+
+5) What are MongoDB Aggregation Framework operations?
+Answer: The Aggregation Framework in MongoDB processes data records and returns computed results. It performs operations like filtering, grouping, and transforming data.
+
+6) How does MongoDB handle transactions?
+Answer: MongoDB supports multi-document transactions, allowing operations to be grouped in a transaction to ensure atomicity. Transactions are useful for scenarios requiring consistency across multiple documents.

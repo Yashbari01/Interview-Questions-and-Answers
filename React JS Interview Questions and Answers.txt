@@ -1,0 +1,59 @@
+# Basic Level
+
+1) What is React?
+Answer: React is a JavaScript library for building user interfaces, particularly single-page applications where data changes over time. It allows developers to create large web applications that can update and render efficiently in response to data changes.
+
+2) What are components in React?
+Answer: Components are the building blocks of a React application. They are reusable pieces of code that represent parts of the user interface. Components can be functional or class-based.
+
+3) What is JSX?
+Answer: JSX stands for JavaScript XML. It is a syntax extension for JavaScript used in React to describe what the UI should look like. JSX allows you to write HTML-like code within JavaScript.
+
+4) What is the Virtual DOM?
+Answer: The Virtual DOM is a lightweight copy of the actual DOM. React uses it to optimize updates and rendering, by updating only the parts of the DOM that have changed.
+
+5) What are props in React?
+Answer: Props (short for properties) are read-only attributes passed from parent to child components. They are used to pass data and event handlers down the component tree.
+
+6) What is state in React?
+Answer: State is an object that holds data or information about the component. It can change over time and is used to create dynamic and interactive components.
+
+# Intermediate Level
+
+1) What is a functional component?
+Answer: A functional component is a JavaScript function that accepts props as an argument and returns React elements. It does not have its own state or lifecycle methods until hooks were introduced in React 16.8.
+
+2) What is a class component?
+Answer: A class component is a JavaScript class that extends React.Component and includes a render() method. It can have its own state and lifecycle methods.
+
+3) What are React hooks?
+Answer: Hooks are functions that let you use state and other React features in functional components. Examples include useState, useEffect, and useContext.
+
+4) What is useState hook?
+Answer: useState is a hook that allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update it.
+
+5) What is useEffect hook?
+Answer: useEffect is a hook for side effects in functional components. It can be used for tasks like data fetching, subscriptions, or manually changing the DOM.
+
+6) What is context in React?
+Answer: Context provides a way to pass data through the component tree without having to pass props down manually at every level. It is often used for global data like themes or authentication status.
+
+# Advanced Level
+
+1) What is Redux and how does it relate to React?
+Answer: Redux is a state management library often used with React. It helps manage application state in a predictable way and allows for centralized management of state and logic.
+
+2) What are higher-order components (HOC)?
+Answer: HOCs are functions that take a component and return a new component with added functionality. They are used for reusing component logic.
+
+3) What is React Router?
+Answer: React Router is a library for routing in React applications. It enables navigation between different views or components in a single-page application.
+
+4) What is server-side rendering (SSR) in React?
+Answer: SSR is the process of rendering a React application on the server rather than the client. It helps with SEO and provides a faster initial page load.
+
+5) How does React handle form events?
+Answer: React handles form events through synthetic events, which are a cross-browser wrapper around native events. Forms in React are typically controlled components, where form data is managed by React state.
+
+6) What are React portals?
+Answer: React portals allow you to render components outside the main DOM hierarchy of the parent component. They are useful for rendering components like modals or tooltips.

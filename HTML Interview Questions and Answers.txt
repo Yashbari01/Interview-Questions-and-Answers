@@ -1,0 +1,32 @@
+HTML Interview Questions and Answers
+
+-- Basic Questions --
+Q1: What is HTML?
+A1: HTML (HyperText Markup Language) is the standard markup language used for creating web pages. It structures content and can include text, images, links, and other multimedia elements.
+
+Q2: What are HTML tags?
+A2: HTML tags are the building blocks of HTML that define elements on a webpage. Tags usually come in pairs, an opening tag <tag> and a closing tag </tag>, and they enclose the content they affect.
+
+Q3: What is the difference between <div> and <span>?
+A3: <div> is a block-level element used for grouping and styling larger sections of content, whereas <span> is an inline element used for styling smaller parts of text within other elements.
+
+-- Advanced Questions --
+Q1: How do you implement responsive design in HTML?
+A1: Responsive design can be implemented using the viewport meta tag, flexible grid layouts, and CSS media queries to adjust the content for different screen sizes.
+
+Q2: What is the role of the <!DOCTYPE> declaration in HTML?
+A2: The <!DOCTYPE> declaration specifies the HTML version and ensures that the browser renders the page in standards mode, which provides more consistent behavior across different browsers.
+
+Q3: How can you embed multimedia elements in HTML?
+A3: Multimedia elements can be embedded using tags like <img> for images, <video> for videos, and <audio> for audio. Each tag has various attributes to control its behavior and appearance.
+
+-- Best Practices and SEO --
+Q1: How do you ensure good SEO with HTML?
+A1: Good SEO practices include using semantic HTML tags, optimizing meta tags, ensuring fast page load times, using alt attributes for images, and creating a clean, structured layout with proper heading levels.
+
+Q2: What are semantic HTML tags?
+A2: Semantic HTML tags clearly describe their meaning in a human- and machine-readable way. Examples include <article>, <section>, <nav>, and <footer>, which help search engines understand the content better.
+
+Q3: What is the purpose of the <meta> tag?
+A3: The <meta> tag provides metadata about the HTML document, such as character set, viewport settings, and SEO keywords, and is placed within the <head> section of the HTML document.
+

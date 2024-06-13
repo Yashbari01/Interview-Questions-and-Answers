@@ -1,0 +1,68 @@
+1) What is Express.js?
+Answer: Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It facilitates the rapid development of Node-based web applications.
+
+2) How do you install Express.js?
+Answer: You can install Express.js using npm (Node Package Manager) by running npm install express in your terminal.
+
+3) How do you create a basic Express.js application?
+Answer:
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+4) What is middleware in Express.js?
+Answer: Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. They can perform tasks like modifying the request, adding response headers, or ending the request-response cycle.
+
+5) Explain the role of next() in middleware.
+Answer: The next() function is used to pass control to the next middleware function in the stack. Without calling next(), the request will be left hanging and will not proceed further in the middleware chain.
+
+6) How can you handle different HTTP methods in Express.js?
+Answer: You can handle different HTTP methods (like GET, POST, PUT, DELETE) by using app.method(path, callback) where method is the HTTP method you want to handle.
+app.get('/path', (req, res) => { /* handle GET request */ });
+app.post('/path', (req, res) => { /* handle POST request */ });
+
+7) What is routing in Express.js?
+Answer: Routing refers to how an application’s endpoints (URIs) respond to client requests. In Express.js, routing is handled by defining the paths and the corresponding callback functions.
+
+8) How can you serve static files using Express.js?
+Answer: You can serve static files using the express.static middleware.
+app.use(express.static('public'));
+This will serve static files from the "public" directory.
+
+9) How do you handle form data in Express.js?
+Answer: You can handle form data by using the express.urlencoded middleware.
+app.use(express.urlencoded({ extended: true }));
+
+10) What is the purpose of app.use() in Express.js?
+Answer: app.use() is used to mount middleware functions at the specified path. Middleware functions are executed sequentially, hence their order of inclusion matters.
+
+11) How can you handle errors in Express.js?
+Answer: You can handle errors using error-handling middleware. Error-handling middleware is defined with four arguments: err, req, res, next.
+app.use((err, req, res, next) => {
+  res.status(500).send('Something broke!');
+});
+
+12) What is the difference between app.get() and app.post() in Express.js?
+Answer: app.get() is used to handle GET requests, which typically retrieve data from the server, whereas app.post() is used to handle POST requests, which are used to submit data to the server.
+
+13) How can you use a template engine in Express.js?
+Answer: You can set the template engine using app.set('view engine', 'template-engine') and then render templates with res.render('template-name', data).
+app.set('view engine', 'pug');
+app.get('/', (req, res) => {
+  res.render('index', { title: 'Express' });
+});
+
+14) What are Express.js routers?
+Answer: Routers in Express.js allow you to create modular, mountable route handlers. They are used to group routes and middleware, which helps to keep the code organized.
+const express = require('express');
+const router = express.Router();
+router.get('/', (req, res) => { res.send('Hello from the router'); });
+app.use('/router', router);
+
+15) How do you integrate a database with an Express.js application?
+Answer: You integrate a database by using a database driver or ORM (like Mongoose for MongoDB, Sequelize for SQL databases), then connecting to the database and performing CRUD operations in your routes or middleware.

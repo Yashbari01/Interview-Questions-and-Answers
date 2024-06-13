@@ -1,0 +1,52 @@
+JavaScript Interview Questions and Answers
+
+Basic Level
+
+1. What is JavaScript?
+   JavaScript is a scripting language used to create and control dynamic website content. It is used for client-side development and can also be used on the server side with environments like Node.js.
+
+2. What are data types in JavaScript?
+   JavaScript supports various data types such as Number, String, Boolean, Object, Function, Symbol, Undefined, and Null.
+
+3. What is the difference between var, let, and const?
+   var is function-scoped and can be redeclared and updated. let and const are block-scoped. let can be updated but not redeclared, while const cannot be updated or redeclared.
+
+4. What is a closure?
+   A closure is a function that retains access to its lexical scope even when the function is executed outside that scope. It is useful for data encapsulation and function factories.
+
+5. What is an arrow function?
+   Arrow functions provide a shorter syntax for writing functions and do not have their own this context, inheriting it from the parent scope.
+
+Intermediate Level
+
+6. What is this in JavaScript?
+   this refers to the context in which a function is called. In the global context, it refers to the global object. In object methods, it refers to the object, and in constructors, it refers to the newly created instance.
+
+7. Explain event delegation.
+   Event delegation is a technique where a single event listener is added to a parent element to manage events for its child elements. It uses event bubbling to catch events at a higher level in the DOM.
+
+8. What are promises in JavaScript?
+   A promise is an object that represents the eventual completion or failure of an asynchronous operation. It provides methods like .then() and .catch() for handling the result or error of the operation.
+
+9. What is async and await?
+   async and await are syntax for writing asynchronous code in a synchronous manner. An async function returns a promise, and await pauses the function execution until the promise is resolved or rejected.
+
+10. Explain the concept of hoisting.
+    Hoisting is JavaScript's behavior of moving declarations to the top of their containing scope during the compilation phase. This applies to var declarations and function declarations.
+
+Advanced Level
+
+11. What is the difference between == and ===?
+    == checks for equality with type conversion, while === checks for equality without type conversion (strict equality).
+
+12. What is the event loop?
+    The event loop is a mechanism that manages the execution of asynchronous code in JavaScript. It allows non-blocking operations by moving tasks to the call stack, handling callbacks, and managing the message queue.
+
+13. What are higher-order functions?
+    Higher-order functions are functions that take other functions as arguments or return them as results. They are used for functional programming patterns like map, filter, and reduce.
+
+14. Explain the spread operator.
+    The spread operator (...) expands an iterable (like an array or object) into individual elements. It is useful for copying arrays, combining arrays, and spreading function arguments.
+
+15. What is debouncing in JavaScript?
+    Debouncing is a technique to limit the number of times a function is executed over time. It ensures that a function is called only after a specified period has passed since the last call.

@@ -1,0 +1,28 @@
+**JSON (JavaScript Object Notation)**
+
+# Basic Level
+
+1) What is JSON?
+Answer: JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+
+2) What are the main data types supported in JSON?
+Answer: JSON supports the following data types: string, number, object, array, true, false, and null.
+
+3) How does JSON differ from XML?
+Answer: JSON is more compact, easier to read and write, and less verbose compared to XML. JSON uses a data format based on key-value pairs, while XML uses a tree structure with tags.
+
+# Intermediate Level
+
+4) How do you parse JSON in JavaScript?
+Answer: You can parse JSON using JSON.parse() to convert a JSON string into a JavaScript object.
+
+5) How do you convert a JavaScript object to a JSON string?
+Answer: Use JSON.stringify() to convert a JavaScript object into a JSON string.
+
+# Advanced Level
+
+6) What are some common security concerns with JSON?
+Answer: Common concerns include cross-site scripting (XSS) attacks when JSON is improperly sanitized, and JSON injection attacks which can occur if user inputs are not validated.
+
+7) How can you handle circular references in JSON?
+Answer: Circular references can be handled using libraries like circular-json which provide functionality to serialize and deserialize objects with circular references.

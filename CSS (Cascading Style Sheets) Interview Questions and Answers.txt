@@ -1,0 +1,25 @@
+**CSS (Cascading Style Sheets)**
+
+# Basic Level
+
+1) What is CSS?
+Answer: CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+
+2) What are the different ways to apply CSS to a web page?
+Answer: CSS can be applied using inline styles, internal styles (within a <style> tag), or external stylesheets (linked via a <link> tag).
+
+# Intermediate Level
+
+3) What is the box model in CSS?
+Answer: The CSS box model describes the rectangular boxes generated for elements in the document tree and includes the content, padding, border, and margin.
+
+4) What is flexbox?
+Answer: Flexbox is a CSS layout model that provides a more efficient way to layout, align, and distribute space among items in a container, even when their size is unknown or dynamic.
+
+# Advanced Level
+
+5) How can you create a CSS grid layout?
+Answer: Use the display: grid; property on a container and define rows and columns using grid-template-rows and grid-template-columns. Place items using grid-row and grid-column.
+
+6) What are CSS preprocessors, and give examples?
+Answer: CSS preprocessors are scripting languages that extend CSS and compile into regular CSS. Examples include Sass, Less, and Stylus.
